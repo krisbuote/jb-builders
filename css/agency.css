@@ -727,13 +727,19 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #035afc;
 }
 
-.carousel-img img{
+@media (max-width: 768px) {
+  .carousel-img img {
+    max-height: 350px !important;
+    width: auto !important;
+    display: block;
+  }
+}
 
+.carousel-img img {
 max-height: 650px;
 width: auto !important;
-align-content: center !important;
-
 }
+
 
 .center img{
   display: block;
@@ -741,6 +747,7 @@ align-content: center !important;
   margin-right: auto;
   width: 50%;
 }
+
 
 .carousel-control-next,
 .carousel-control-prev {

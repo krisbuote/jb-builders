@@ -729,9 +729,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 @media (max-width: 768px) {
   .carousel-img img {
-    max-height: 350px !important;
+    /*max-height: 350px !important;
     width: auto !important;
-    display: block;
+    display: block;*/
   }
 }
 

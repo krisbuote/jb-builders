@@ -615,7 +615,7 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-calgary.png");
+  background-image: url("../img/map-calgary.jpg");
   background-repeat: no-repeat;
   background-position: center;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
@@ -727,12 +727,22 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #035afc;
 }
 
-#myCarousel img {
+.carousel-img img{
 
-width: auto;
+max-height: 650px;
+width: auto !important;
+align-content: center !important;
 
-height: 225px;
+}
 
-max-height: 225px;
+.center img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
 }

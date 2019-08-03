@@ -745,8 +745,11 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     max-height: 350px !important;
     width: auto !important;
     display: block;
-   /* width: 50vw;
-    height: auto;*/
+  }
+
+  .carousel-img-landscape img {
+    max-width: 80vw;
+    height: auto;
   }
 }
 

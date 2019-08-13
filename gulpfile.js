@@ -74,7 +74,7 @@ function modules() {
 function css() {
   return gulp
     // .src("./scss/**/*.scss")
-    .src("./css/**/*.css")
+    .src("./css/agency.css")
     .pipe(plumber())
     .pipe(sass({
       outputStyle: "expanded",

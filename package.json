@@ -1,11 +1,10 @@
 {
-    "title": "Agency",
-    "name": "startbootstrap-agency",
+    "title": "JB Builders",
     "version": "5.2.1",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "Agency is a one page HTML theme for Bootstrap.",
+    "description": "A simple website for JB Builders built from Bootstrap Agency.",
     "keywords": [
         "css",
         "sass",
@@ -14,19 +13,12 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/agency",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
-        "email": "feedback@startbootstrap.com"
-    },
+    "homepage": "jbbuilders.ca",
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
+    "author": "Kristopher Buote",
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
+        "url": "https://github.com/krisbuote/jb-builders.git"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.9.0",

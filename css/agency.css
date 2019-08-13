@@ -1,10 +1,15 @@
 /*!
+ * Start Bootstrap - Agency v5.2.1 (https://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ */
+
+/*!
  * Start Bootstrap - Agency v5.0.7 (https://startbootstrap.com/template-overviews/agency)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
- /*Original color: #fed136*/
-
+/*Original color: #fed136*/
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -62,16 +67,26 @@ section h3.section-subheading {
 }
 
 .w3-content {
-  margin-left:auto;
-  margin-right:auto;
-  max-width:980px;
-  }
-
-.w3-display-container {
-  position:relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 980px;
 }
 
-.w3-display-container:hover .w3-display-hover{display:block}.w3-display-container:hover span.w3-display-hover{display:inline-block}.w3-display-hover{display:none}
+.w3-display-container {
+  position: relative;
+}
+
+.w3-display-container:hover .w3-display-hover {
+  display: block;
+}
+
+.w3-display-container:hover span.w3-display-hover {
+  display: inline-block;
+}
+
+.w3-display-hover {
+  display: none;
+}
 
 .btn {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -85,7 +100,7 @@ section h3.section-subheading {
 
 .btn-contact {
   background-color: #fc6b03 !important;
-  border-color: #e66000 !important; 
+  border-color: #e66000 !important;
 }
 
 .btn-contact:active, .btn-contact:focus, .btn-contact:hover {
@@ -110,9 +125,18 @@ section h3.section-subheading {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
 
+::-moz-selection {
+  background: #035afc;
+  text-shadow: none;
+}
+
 ::selection {
   background: #035afc;
   text-shadow: none;
+}
+
+img::-moz-selection {
+  background: transparent;
 }
 
 img::selection {
@@ -625,11 +649,12 @@ section#contact {
   background-image: url("../img/map-calgary.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  -webkit-box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
 }
 
 section#contact .h1 .h2 .h3 .h4 {
-  color:white;
+  color: white;
 }
 
 @media (max-width: 768px) {
@@ -639,12 +664,12 @@ section#contact .h1 .h2 .h3 .h4 {
 }
 
 section#contact .layer {
-    background-color: rgba(248, 247, 216, 0.7);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  background-color: rgba(248, 247, 216, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 section#contact .section-heading {
@@ -746,7 +771,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     width: auto !important;
     display: block;
   }
-
   .carousel-img-landscape img {
     max-width: 80vw;
     height: auto;
@@ -754,29 +778,27 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .carousel-img img {
-max-height: 650px;
-width: auto !important;
+  max-height: 650px;
+  width: auto !important;
 }
 
-
-.center img{
+.center img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
-
 .carousel-control-next,
 .carousel-control-prev {
-    /*filter: invert(100%);*/
+  /*filter: invert(100%);*/
   /*color:blue;*/
 }
 
 .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23035afc' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23035afc' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
 .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23035afc' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23035afc' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }

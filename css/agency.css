@@ -1,39 +1,4 @@
-/*!
- * Start Bootstrap - JB Builders v5.2.1 (jbbuilders.ca)
- * Copyright 2013-2019 Kristopher Buote
- * Licensed under MIT (https://github.com/BlackrockDigital//blob/master/LICENSE)
- */
 
-/*!
- * Start Bootstrap - JB Builders v5.2.1 (jbbuilders.ca)
- * Copyright 2013-2019 Kristopher Buote
- * Licensed under MIT (https://github.com/BlackrockDigital//blob/master/LICENSE)
- */
-/*!
- * Start Bootstrap - JB Builders v5.2.1 (jbbuilders.ca)
- * Copyright 2013-2019 Kristopher Buote
- * Licensed under MIT (https://github.com/BlackrockDigital//blob/master/LICENSE)
- */
-/*!
- * Start Bootstrap - JB Builders v5.2.1 (jbbuilders.ca)
- * Copyright 2013-2019 Kristopher Buote
- * Licensed under MIT (https://github.com/BlackrockDigital//blob/master/LICENSE)
- */
-/*!
- * Start Bootstrap - JB Builders v5.2.1 (jbbuilders.ca)
- * Copyright 2013-2019 Kristopher Buote
- * Licensed under MIT (https://github.com/BlackrockDigital//blob/master/LICENSE)
- */
-/*!
- * Start Bootstrap - JB Builders v5.2.1 (jbbuilders.ca)
- * Copyright 2013-2019 Kristopher Buote
- * Licensed under MIT (https://github.com/BlackrockDigital//blob/master/LICENSE)
- */
-/*!
- * Start Bootstrap - JB Builders v5.2.1 (jbbuilders.ca)
- * Copyright 2013-2019 Kristopher Buote
- * Licensed under MIT (https://github.com/BlackrockDigital//blob/master/LICENSE)
- */
 /*!
  * Start Bootstrap - JB Builders v5.2.1 (jbbuilders.ca)
  * Copyright 2013-2019 Kristopher Buote
@@ -260,8 +225,54 @@ header.masthead {
 }
 
 header.masthead .intro-image {
-  padding-top: 20px;
+  padding-top: 10vh;
 }
+
+@media (max-width: 800px) {
+  header.masthead .intro-image {
+  padding-top: 7vh;
+}
+}
+
+@media (max-width: 600px) {
+  header.masthead .intro-image {
+  padding-top: 10vh;
+}
+}
+
+@media (max-width: 400px) {
+  header.masthead .intro-image {
+  padding-top: 14vh;
+}
+}
+
+.intro-image img {
+  max-width: 55vw !important;
+  width: auto !important;
+}
+
+@media (max-width: 400px) {
+  .intro-image img {
+  max-width: 75vw !important;
+  width: auto !important;
+}
+}
+
+.nav-logo img {
+  max-width: 50vw !important;
+  width: auto !important;
+}
+
+
+
+/*@media (max-width: 762px){
+  img.intro-image {
+  padding-top: 20px;
+  max-width: 50vw;
+  height: auto !important;
+  }
+}*/
+
 
 header.masthead .intro-text {
   /*padding-top: 150px;*/

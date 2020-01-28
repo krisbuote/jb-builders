@@ -861,9 +861,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 /* Hero Slider CSS January 2020*/
 
-.carousel-item {
+.hero-carousel-item {
   height: 100vh;
-  /*min-height: 350px;*/
+  min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;

@@ -882,3 +882,23 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .dropdown:hover>.dropdown-menu {
   display: block;
 }
+
+/*Landing page background image*/
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .bg-image-full {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+}

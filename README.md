@@ -1,5 +1,5 @@
 # jb-builders
-A website for JB Builders.
+A website for [JB Builders, home renovator in Calgary, AB.](http://jbbuilders.ca).
 
 # [Start Bootstrap - Agency](https://startbootstrap.com/template-overviews/agency/)
 

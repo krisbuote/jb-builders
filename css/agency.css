@@ -878,6 +878,13 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   max-width: 75%;
 }
 
+
+@media (max-width: 768px) {
+  .mobile-logo-padding img {
+    padding-top:20vh;
+  }
+}
+
 .logo-center-small img {
   display: block;
   margin-left: auto;
@@ -935,4 +942,16 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     -o-background-size: cover;
   }
 
+}
+
+.blog-image-header {
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.blog-intro {
+  text-align: center;
 }

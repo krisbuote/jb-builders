@@ -834,8 +834,14 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .carousel-img img {
-  max-height: 650px;
+  /*max-height: 650px;*/
+  max-height: 33vw;
   width: auto !important;
+}
+
+.carousel-img-landscape img {
+  max-width: 80vw;
+  height: auto;
 }
 
 .center img {

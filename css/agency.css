@@ -864,6 +864,18 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
+/* Services bullet points*/
+
+.no-bullets ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-list li {
+list-style-position: inside;
+}
+
 /* Hero Slider CSS January 2020*/
 
 .hero-carousel-item {

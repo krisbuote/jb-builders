@@ -1,7 +1,7 @@
 # jb-builders
 A website for [JB Builders, home renovator in Calgary, AB.](https://jbbuilders.ca).
 
-Based on Bootstrap - Agency theme below.
+Based on Bootstrap - Agency theme. Bootstrap details below.
 
 # [Start Bootstrap - Agency](https://startbootstrap.com/template-overviews/agency/)
 
